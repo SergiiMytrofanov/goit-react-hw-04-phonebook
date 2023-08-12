@@ -9,12 +9,12 @@ const Filter = ({ filter, onChange, onToggleSearchByPhone, searchByPhone }) => {
           type="checkbox"
           checked={searchByPhone}
           onChange={onToggleSearchByPhone}
-        />Пошук за номероm телефону</label>
+        />Пошук за номером телефону</label>
         <input
         className={styles.filterFormInput}
         type="text"
         name="filter"
-        placeholder="Пошук за ім'ям"
+        placeholder="Пошук за іменем/прізвищем"
         value={filter}
         onChange={onChange}
         hidden={searchByPhone}
